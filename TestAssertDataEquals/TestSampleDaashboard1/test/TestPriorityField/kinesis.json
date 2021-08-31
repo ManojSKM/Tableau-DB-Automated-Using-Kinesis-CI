@@ -1,0 +1,43 @@
+{
+    "description": "Priority Top 10 Countries",
+    "name": "TestPriorityField",
+    "tasks": [
+        {
+            "disabled": false,
+            "name": "Test Login to Tableau",
+            "password": "9h9oMJ05dVvJlifzl/v8;encrypted",
+            "site-id": "{{TABLEAU_SITE}}",
+            "type": "login_tableau",
+            "url": "{{TABLEAU_URL}}",
+            "user": "{{TABLEAU_USER}}"
+        },
+        {
+            "disabled": false,
+            "name": "Test Viz",
+            "refresh-data": true,
+            "type": "viz_open",
+            "url": "{{TABLEAU_URL}}/t/{{TABLEAU_SITE}}/views/Freshinsights-SpringerNature/FreshInsightsOverview"
+        },
+        {
+            "disabled": false,
+            "name": "Priority Top 10 Countries",
+            "parameter-type": "string",
+            "target": "All/Priority/Top 10 countries",
+            "type": "set_parameter",
+            "value-date-type": "static",
+            "value-datetime-type": "static",
+            "value-string": "Priority countries"
+        },
+        {
+            "check-values": false,
+            "disabled": false,
+            "expected-value-string-formatted": "Priority countries",
+            "formatted-values": true,
+            "name": "Priority Top 10 Countries Parameters",
+            "parameter-type": "number",
+            "target": "All/Priority/Top 10 countries",
+            "type": "assert_parameter_equals"
+        }
+    ],
+    "type": "functional"
+}

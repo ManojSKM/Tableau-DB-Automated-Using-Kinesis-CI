@@ -1,0 +1,8 @@
+{
+    "kinesisVersion": "2.2.1",
+    "name": "TestSampleDashboard",
+    "description": "",
+    "srcDir": "src",
+    "jobDir": "test",
+    "contextDir": "context"
+}

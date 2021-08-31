@@ -1,0 +1,379 @@
+{
+    "description": "",
+    "name": "COVID-19_modules",
+    "tableau-snapshot": {
+        "content": {
+            "filters": false,
+            "fullColumns": false,
+            "image": true,
+            "parameters": false,
+            "summaryColumns": false,
+            "summaryData": false,
+            "worksheets": true
+        },
+        "image": "resources/snapshot-GFCOVID-19CountryMonitoring_16179831051800-Covid-19CountryMonitoring.png",
+        "name": "Covid-19CountryMonitoring",
+        "parameters": [],
+        "timestamp": 1624704098678,
+        "uniqueName": "GFCOVID-19CountryMonitoring_16179831051800-Covid-19CountryMonitoring",
+        "url": "https://analytics.theglobalfund.org/t//views/GFCOVID-19CountryMonitoring_16179831051800/Covid-19CountryMonitoring",
+        "urlWithSelmerTokens": "{{TABLEAU_URL}}/t/{{TABLEAU_SITE}}/views/GFCOVID-19CountryMonitoring_16179831051800/Covid-19CountryMonitoring",
+        "worksheets": [
+            {
+                "name": "1.1"
+            },
+            {
+                "name": "1st Chart"
+            },
+            {
+                "name": "2.1"
+            },
+            {
+                "name": "2nd Chart"
+            },
+            {
+                "name": "3.1"
+            },
+            {
+                "name": "3rd Chart"
+            },
+            {
+                "name": "As of title"
+            },
+            {
+                "name": "Awarded"
+            },
+            {
+                "name": "C19RM by Category "
+            },
+            {
+                "name": "COVID 19 Incidence by Country per million"
+            },
+            {
+                "name": "COVID 19 Mortality by Country per million"
+            },
+            {
+                "name": "COVID 19 Mortality-Incidence by Regions (3)"
+            },
+            {
+                "name": "COVID 19 Mortality-Incidence by Regions (4)"
+            },
+            {
+                "name": "Category/product approved for funds legend"
+            },
+            {
+                "name": "Category/product not approved for funds legend"
+            },
+            {
+                "name": "Country Survey Results Data Table"
+            },
+            {
+                "name": "Diagnosis/testing"
+            },
+            {
+                "name": "Dont Know"
+            },
+            {
+                "name": "Exp - Financial overview"
+            },
+            {
+                "name": "Exp - Financial overview (3)"
+            },
+            {
+                "name": "Exp - General info"
+            },
+            {
+                "name": "Exp - Utilization"
+            },
+            {
+                "name": "Exp - Utilization by IP name"
+            },
+            {
+                "name": "Exp - data by intervention (3)"
+            },
+            {
+                "name": "Exp - data by intervention (4)"
+            },
+            {
+                "name": "Financial overview legend"
+            },
+            {
+                "name": "Financial overview legend square"
+            },
+            {
+                "name": "Financial overview legend text"
+            },
+            {
+                "name": "Flexibility heading"
+            },
+            {
+                "name": "GC country"
+            },
+            {
+                "name": "GC country 1st July"
+            },
+            {
+                "name": "GI country"
+            },
+            {
+                "name": "GI country 1st July"
+            },
+            {
+                "name": "General Comments"
+            },
+            {
+                "name": "Grant Flexibility Amount"
+            },
+            {
+                "name": "Grant flexibility approved amount (2)"
+            },
+            {
+                "name": "High"
+            },
+            {
+                "name": "IEC materials"
+            },
+            {
+                "name": "Infec Control/Health worker protection"
+            },
+            {
+                "name": "Infection Control / Hygiene"
+            },
+            {
+                "name": "LFA comments"
+            },
+            {
+                "name": "LFA resources first chart without color"
+            },
+            {
+                "name": "Laboratory Equipment and reagents"
+            },
+            {
+                "name": "Likert chart without color"
+            },
+            {
+                "name": "Low"
+            },
+            {
+                "name": "Medicines / Patient Support"
+            },
+            {
+                "name": "Mitigate on HIV / TB / Malaria programs"
+            },
+            {
+                "name": "Moderate"
+            },
+            {
+                "name": "No response from LFA"
+            },
+            {
+                "name": "No response from LFA (2)"
+            },
+            {
+                "name": "OPR country"
+            },
+            {
+                "name": "OPR country 1st July"
+            },
+            {
+                "name": "Resources pie legend square"
+            },
+            {
+                "name": "Resources pie legend text"
+            },
+            {
+                "name": "Response plan in place"
+            },
+            {
+                "name": "Response plan trend"
+            },
+            {
+                "name": "Response plan trend (2)"
+            },
+            {
+                "name": "Response plan trend 1st July"
+            },
+            {
+                "name": "Response plan trend 1st July (2)"
+            },
+            {
+                "name": "Surveillance and M&E "
+            },
+            {
+                "name": "TGF for legend"
+            },
+            {
+                "name": "TGF spread GC"
+            },
+            {
+                "name": "TGF spread GC Region"
+            },
+            {
+                "name": "TGF spread GI"
+            },
+            {
+                "name": "TGF spread GI Region"
+            },
+            {
+                "name": "TGF spread OPR"
+            },
+            {
+                "name": "TGF spread OPR Region"
+            },
+            {
+                "name": "Total COVID-19 Amount (2)"
+            },
+            {
+                "name": "Training info/campaings"
+            },
+            {
+                "name": "Treatment"
+            },
+            {
+                "name": "Utilization tooltip"
+            },
+            {
+                "name": "Very High"
+            },
+            {
+                "name": "as of date"
+            },
+            {
+                "name": "confirmed cases # (3)"
+            },
+            {
+                "name": "lockdown"
+            },
+            {
+                "name": "lockdown trend"
+            },
+            {
+                "name": "lockdown trend (3)"
+            },
+            {
+                "name": "lockdown trend 1st July"
+            },
+            {
+                "name": "lockdown trend 1st July (2)"
+            }
+        ]
+    },
+    "tasks": [
+        {
+            "disabled": false,
+            "name": "Login",
+            "password": "9h9oMJ05dVvJlifzl/v8;encrypted",
+            "site-id": "{{TABLEAU_SITE}}",
+            "type": "login_tableau",
+            "url": "{{TABLEAU_URL}}",
+            "user": "{{TABLEAU_USER}}"
+        },
+        {
+            "disabled": false,
+            "name": "Open the Visual",
+            "type": "viz_open",
+            "url": "{{TABLEAU_URL}}/t/{{TABLEAU_SITE}}/views/GFCOVID-19CountryMonitoring_16179831051800/Covid-19CountryMonitoring"
+        },
+        {
+            "disabled": false,
+            "name": "Flter Check",
+            "select-all": true,
+            "target": "Country",
+            "target-worksheet": "COVID 19 Mortality-Incidence by Regions (3)",
+            "type": "set_filter_list",
+            "workflow": {
+                "continue-on-error": true
+            }
+        },
+        {
+            "check-values": true,
+            "disabled": false,
+            "filter-type": "CATEGORICAL",
+            "formatted-values": true,
+            "name": "Assert Filter Equals",
+            "target": "Country",
+            "target-worksheet": "Total COVID-19 Amount (2)",
+            "type": "assert_filter_equals",
+            "value-list": [
+                "Afghanistan",
+                "Albania"
+            ],
+            "workflow": {
+                "continue-on-error": true
+            }
+        },
+        {
+            "disabled": false,
+            "expected-image-path": "resources/snapshot-GFCOVID-19CountryMonitoring_16179831051800-Covid-19CountryMonitoring.png",
+            "name": "Check the image",
+            "sampling-size": 50,
+            "threshold-percentage": 10,
+            "type": "assert_image_equals",
+            "workflow": {
+                "continue-on-error": true
+            }
+        },
+        {
+            "data-type": "SUMMARY",
+            "disabled": false,
+            "exclude-nulls": false,
+            "formatted-values": false,
+            "formulas": [
+                "Total COVID invest with comm amount = zn(SUM([Total Immediate Award US$]))+\nzn(SUM([COVID Decisions (Covid flex decisions)].[Total grant flexibility COVID-19 Approved amount]))+\nzn(SUM([C19rm allocation letters].[Base Allocation (USD Equiv.)]))"
+            ],
+            "name": "Check the data rules",
+            "rules": [],
+            "scope": "every-row",
+            "tableau-export-csv": {
+                "delimiter": ",",
+                "encoding": "utf8",
+                "newline-char": "\n"
+            },
+            "target": "1.1",
+            "type": "assert_data_rule_meets"
+        },
+        {
+            "advanced": {
+                "print-page-on-failure": false
+            },
+            "commands": [
+                {
+                    "param-1": "{{TABLEAU_URL}}",
+                    "type": "navigate-to"
+                },
+                {
+                    "param-1": "<<< SSO Login Title (e.g. Siteminder Login) >>>",
+                    "type": "wait-until-title"
+                },
+                {
+                    "param-1": "input#login-field, input#user, input#email",
+                    "type": "wait-until-exists"
+                },
+                {
+                    "param-1": "input#login-field, input#user, input#email",
+                    "param-2": "{{TABLEAU_USER}}",
+                    "type": "input-text"
+                },
+                {
+                    "param-1": "input#login-field, input#user, input#email",
+                    "param-2": "{{TABLEAU_PWD}}",
+                    "type": "input-text"
+                },
+                {
+                    "param-1": "form",
+                    "type": "submit-form"
+                },
+                {
+                    "param-1": "Tableau Server",
+                    "type": "wait-until-title"
+                }
+            ],
+            "disabled": false,
+            "name": "<<< SSO Login Template - You may need to customise this template according to your corporate settings >>>",
+            "query-selector": "css",
+            "timeout": 5000,
+            "type": "drive_browser"
+        }
+    ],
+    "type": "functional"
+}

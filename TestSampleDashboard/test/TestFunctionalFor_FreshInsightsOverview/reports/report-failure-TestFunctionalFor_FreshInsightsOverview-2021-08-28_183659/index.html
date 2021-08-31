@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/kinesis.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/mohsen1/json-formatter-js/v1.1.0/dist/bundle.js" type="text/javascript"></script> <!-- json-formatter-js, distributed as bundle.js on github -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/x2js/1.2.0/xml2json.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/i-like-robots/EasyZoom/master/dist/easyzoom.js" type="text/javascript"></script>
+    <!-- Init easyzoom -->
+    <script language="javascript">$(document).ready(function() { $('.easyzoom').easyZoom(); });</script>
+    <meta charset="UTF-8">
+    <base target="_blank">
+    <title></title>
+</head>
+<body>
+<div class="col-md-1"></div>
+<div class="col-md-10">
+    <table class="table table-borderless">
+        <tr>
+            <td class="col-md-3 text-center vert-align">
+                
+                    
+                        <h4><span class="label label-danger">&#10060; Failed</span></h4>
+                    
+                
+            </td>
+            <td class="col-md-6 text-center vert-align">
+                <h3>TestFunctionalFor_FreshInsightsOverview</h3>
+                <h5></h5>
+                <h5>2021-08-28 18:37:00</h5>
+            </td>
+            <td class="col-md-3 text-center vert-align"><img src="images/kinesis-logo.png"/></td>
+        </tr>
+    </table>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Summary</h3>
+<table class="table table-striped">
+    <!--<caption>Summary</caption>-->
+    <thead>
+    <tr>
+        <!--<td>#</td>-->
+        <td>Task Name</td>
+        <td>Status</td>
+        <td>Time</td>
+    </tr>
+    </thead>
+    <!--For each task...-->
+    <!--Each task should contain an anchor link to the task config later down the page-->
+
+    <tbody>
+    
+    <tr>
+        <td><a href="#link-93421425">TestLogintoTableau</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>42.151s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-1027184658">TestOpenViz</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>62.259s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-687330263">TestAssertImageEquals</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>27.885s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-814345509">TestStartDateField</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>30.132s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-1491875271">AssertParameterEqualsForStartDateField</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>2.279s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-971210455">TestEndDateField</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>18.722s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-766153153">AssertParameterEqualsForEndDateField</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>1.564s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-2031785763">TestParameter</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>6.752s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-127202895">TestCountryFilter</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>5.894s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-980734964">TestCountryAssertDataEquals</a></td>
+        
+            
+                <td>
+                    <p class="text-warning">⚠️</p>
+                </td>
+            
+        
+        <td>3.002s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-1908907648">TestRemoveMarks</a></td>
+        
+            
+                <td>
+                    <p class="text-warning">⚠️</p>
+                </td>
+            
+        
+        <td>0.638s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-2001165337">TestReplaceMarks</a></td>
+        
+            
+                <td>&#10060;</td>
+            
+        
+        <td>0.405s</td>
+    </tr>
+    
+    </tbody>
+</table>
+
+            <h3>Task Details</h3>
+    
+   <a name="link-93421425"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (1/12)</th>
+                <th>TestLogintoTableau</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-93421425"></td>
+                <script type="text/javascript">
+                    var jsonData = {"disabled":false,"name":"TestLogintoTableau","password":"********","site-id":"analyticsradiaresoftwaresolution","type":"login_tableau","url":"https:\/\/us-east-1.online.tableau.com\/","user":"thirunavukkarasu.k@radiare.com"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-93421425");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Login successful</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210828T183417.334+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-1027184658"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (2/12)</th>
+                <th>TestOpenViz</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1027184658"></td>
+                <script type="text/javascript">
+                    var jsonData = {"disabled":false,"name":"TestOpenViz","refresh-data":true,"type":"viz_open","url":"https:\/\/us-east-1.online.tableau.com\/\/t\/analyticsradiaresoftwaresolution\/views\/Freshinsights-SpringerNature\/FreshInsightsOverview"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1027184658");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Data refreshed successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210828T183519.557+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-687330263"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (3/12)</th>
+                <th>TestAssertImageEquals</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-687330263"></td>
+                <script type="text/javascript">
+                    var jsonData = {"disabled":false,"expected-image-path":"resources\/FreshInsights Overview.png","name":"TestAssertImageEquals","sampling-size":50,"threshold-percentage":10,"type":"assert_image_equals","workflow":{"continue-on-error":true}};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-687330263");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Image equals</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+                
+<tr>
+    <td>Difference</td>
+    <td>
+        <table>
+            <tr>
+                <td class="col-md-6">
+                    <h4><strong>Expected</strong></h4>
+                    
+                        <div class="easyzoom easyzoom--overlay">
+                            <a href="artifacts/expected-image-20210828T183520.071+0530.png">
+                                <img class="img-responsive img-thumbnail" src="artifacts/expected-image-20210828T183520.071+0530.png"/>
+                            </a>
+                        </div>
+                    
+                </td>
+                <td class="col-md-6">
+                    <h4><strong>Difference</strong></h4>
+                    
+                        <div class="easyzoom easyzoom--overlay">
+                            <a href="artifacts/diff-image-20210828T183535.160+0530.png">
+                                <img class="img-responsive img-thumbnail" src="artifacts/diff-image-20210828T183535.160+0530.png"/>
+                            </a>
+                        </div>
+                    
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210828T183547.448+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-814345509"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (4/12)</th>
+                <th>TestStartDateField</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-814345509"></td>
+                <script type="text/javascript">
+                    var jsonData = {"value-datetime-type":"static","disabled":false,"name":"TestStartDateField","parameter-type":"datetime","type":"set_parameter","workflow":{"continue-on-error":true},"target":"Start date ","value-datetime":"2020-04-10T18:12:00.000Z","value-date-type":"static"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-814345509");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Parameter set successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210828T183617.584+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-1491875271"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (5/12)</th>
+                <th>AssertParameterEqualsForStartDateField</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1491875271"></td>
+                <script type="text/javascript">
+                    var jsonData = {"expected-value-datetime-formatted":"4\/10\/2020 11:42 PM  2020-4-10 1:10:13 AM","check-values":false,"disabled":false,"name":"AssertParameterEqualsForStartDateField","parameter-type":"datetime","formatted-values":true,"type":"assert_parameter_equals","workflow":{"continue-on-error":true},"target":"Start date "};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1491875271");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Parameter exists as expected. Parameter value check disabled.</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210828T183619.862+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-971210455"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (6/12)</th>
+                <th>TestEndDateField</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-971210455"></td>
+                <script type="text/javascript">
+                    var jsonData = {"value-datetime-type":"static","disabled":false,"name":"TestEndDateField","parameter-type":"datetime","type":"set_parameter","workflow":{"continue-on-error":true},"target":"End date ","value-datetime":"2020-04-30T18:17:00.000Z","value-date-type":"static"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-971210455");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Parameter set successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210828T183638.603+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-766153153"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (7/12)</th>
+                <th>AssertParameterEqualsForEndDateField</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-766153153"></td>
+                <script type="text/javascript">
+                    var jsonData = {"expected-value-datetime-formatted":"4\/30\/2020 6:17:00 PM","check-values":true,"disabled":false,"name":"AssertParameterEqualsForEndDateField","parameter-type":"datetime","formatted-values":true,"type":"assert_parameter_equals","workflow":{"continue-on-error":true},"target":"End date "};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-766153153");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Parameter is as expected.</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210828T183640.160+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-2031785763"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (8/12)</th>
+                <th>TestParameter</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-2031785763"></td>
+                <script type="text/javascript">
+                    var jsonData = {"value-string":"Priority countries","value-datetime-type":"static","disabled":false,"name":"TestParameter","parameter-type":"string","type":"set_parameter","workflow":{"continue-on-error":true},"target":"All\/Priority\/Top 10 countries","value-date-type":"static","value-number":2};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-2031785763");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Parameter set successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210828T183646.914+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-127202895"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (9/12)</th>
+                <th>TestCountryFilter</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-127202895"></td>
+                <script type="text/javascript">
+                    var jsonData = {"disabled":false,"name":"TestCountryFilter","select-all":false,"target":"Country","target-worksheet":"Avg First Responce Time","type":"set_filter_list","values":["China"],"workflow":{"continue-on-error":true}};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-127202895");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>List Filter set successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210828T183652.797+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-980734964"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (10/12)</th>
+                <th>TestCountryAssertDataEquals</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-980734964"></td>
+                <script type="text/javascript">
+                    var jsonData = {"disabled":false,"expected-csv-path":"resources\/No of FR SLA Breached tickets.csv","export-type":"CROSSTAB","name":"TestCountryAssertDataEquals","target":"No of FR SLA Breached tickets","type":"assert_data_equals","workflow":{"continue-on-error":true}};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-980734964");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        <a href="artifacts/actual-csv-20210828T183654.147+0530.csv">actual-csv-20210828T183654.147+0530.csv</a>
+                    
+                </td>
+            </tr>
+            
+            
+            
+                
+
+
+    
+    <tr>
+        <td>Differences - Up to first 20 rows</td>
+        <td>
+            <table class="table table-striped code-data">
+                <thead>
+                <tr>
+                    <td><strong>Row Number</strong></td>
+                    <td><strong>Expected Row</strong></td>
+                    <td><strong>Actual Row</strong></td>
+                </tr>
+                </thead>
+                
+                <tr>
+                    <td>1</td>
+                    <td><samp>��%   o f   T o t a l   T i c k e t s   H a n d l e d 	 5 . 5 1 % </samp></td>
+                    <td><samp>��%   o f   T o t a l   T i c k e t s   H a n d l e d 	 5 . 9 3 % </samp></td>
+                </tr>
+                
+                <tr>
+                    <td>2</td>
+                    <td><samp> N u m b e r   o f   t i c k e t s 	 3 0 , 2 3 2 </samp></td>
+                    <td><samp> N u m b e r   o f   t i c k e t s 	 1 , 5 9 9 </samp></td>
+                </tr>
+                
+            </table>
+        </td>
+    </tr>    
+    
+
+
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210828T183655.846+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-1908907648"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (11/12)</th>
+                <th>TestRemoveMarks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1908907648"></td>
+                <script type="text/javascript">
+                    var jsonData = {"dimension-values":["China"],"field-type":"DIMENSION","disabled":false,"name":"TestRemoveMarks","field":"Country","type":"select_marks","update-type":"REMOVE","workflow":{"continue-on-error":true},"target":"Avg First Responce Time"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1908907648");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>javascript error: promiseSelectMarks is not defined<br />  (Session info: chrome=92.0.4515.159)<br />  (Driver info: chromedriver=92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}),platform=Windows NT 10.0.19043 x86_64) (WARNING: The server did not provide any stacktrace information)<br />Command duration or timeout: 20 milliseconds<br />Build info: version: 'unknown', revision: 'unknown', time: 'unknown'<br />System info: host: 'DESKTOP-M81J6B6', ip: '10.40.32.215', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'<br />Driver info: org.openqa.selenium.chrome.ChromeDriver<br />Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58961}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}), userDataDir=C:\Users\MANOJS~1\AppData\Local\Temp\scoped_dir15740_392612399}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=92.0.4515.159, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]<br />Session ID: 64b47e13d201fe0c20568ad3c1714f92</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210828T183656.497+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-2001165337"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (12/12)</th>
+                <th>TestReplaceMarks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-2001165337"></td>
+                <script type="text/javascript">
+                    var jsonData = {"dimension-values":["Germany"],"disabled":false,"field":"Country","field-type":"DIMENSION","name":"TestReplaceMarks","target":"Avg First Responce Time","type":"select_marks","update-type":"REPLACE"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-2001165337");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>javascript error: promiseSelectMarks is not defined<br />  (Session info: chrome=92.0.4515.159)<br />  (Driver info: chromedriver=92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}),platform=Windows NT 10.0.19043 x86_64) (WARNING: The server did not provide any stacktrace information)<br />Command duration or timeout: 21 milliseconds<br />Build info: version: 'unknown', revision: 'unknown', time: 'unknown'<br />System info: host: 'DESKTOP-M81J6B6', ip: '10.40.32.215', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'<br />Driver info: org.openqa.selenium.chrome.ChromeDriver<br />Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58961}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}), userDataDir=C:\Users\MANOJS~1\AppData\Local\Temp\scoped_dir15740_392612399}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=92.0.4515.159, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]<br />Session ID: 64b47e13d201fe0c20568ad3c1714f92</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210828T183656.935+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+
+        </div>
+    </div>
+</div>
+<div class="col-md-1"></div>
+</body>
+</html>

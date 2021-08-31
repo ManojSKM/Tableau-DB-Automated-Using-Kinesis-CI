@@ -1,0 +1,88 @@
+{
+    "description": "Test Country Filter",
+    "name": "Country_Filter",
+    "tasks": [
+        {
+            "disabled": false,
+            "name": "Test Login to Tableau",
+            "password": "9h9oMJ05dVvJlifzl/v8;encrypted",
+            "site-id": "{{TABLEAU_SITE}}",
+            "type": "login_tableau",
+            "url": "{{TABLEAU_URL}}",
+            "user": "{{TABLEAU_USER}}"
+        },
+        {
+            "disabled": false,
+            "name": "Test Viz",
+            "refresh-data": true,
+            "type": "viz_open",
+            "url": "{{TABLEAU_URL}}/t/{{TABLEAU_SITE}}/views/Freshinsights-SpringerNature/FreshInsightsOverview"
+        },
+        {
+            "disabled": false,
+            "name": "Test Country Filter",
+            "select-all": false,
+            "target": "Country",
+            "target-worksheet": "Avg First Responce Time",
+            "type": "set_filter_list",
+            "values": [
+                "China"
+            ],
+            "workflow": {
+                "continue-on-error": true
+            }
+        },
+        {
+            "check-values": true,
+            "disabled": false,
+            "filter-type": "CATEGORICAL",
+            "formatted-values": true,
+            "name": "Test Country Filter Equals",
+            "target": "Country",
+            "target-worksheet": "Avg First Responce Time",
+            "type": "assert_filter_equals",
+            "value-list": [
+                "China"
+            ],
+            "workflow": {
+                "continue-on-error": true
+            }
+        },
+        {
+            "data-type": "SUMMARY",
+            "disabled": false,
+            "exclude-nulls": true,
+            "formatted-values": true,
+            "name": "Test Country Filter Data Rules",
+            "row-counts": [
+                {
+                    "expression-value": 1,
+                    "operator": "equals"
+                }
+            ],
+            "scope": "every-row",
+            "tableau-export-csv": {
+                "delimiter": ",",
+                "encoding": "utf8",
+                "newline-char": "\n"
+            },
+            "target": "No of FR SLA Breached tickets",
+            "type": "assert_data_rule_meets",
+            "workflow": {
+                "continue-on-error": true
+            }
+        },
+        {
+            "disabled": false,
+            "expected-csv-path": "resources/No of FR SLA Breached tickets.csv",
+            "export-type": "CROSSTAB",
+            "name": "Test Country Filter Data Equals",
+            "target": "No of FR SLA Breached tickets",
+            "type": "assert_data_equals",
+            "workflow": {
+                "continue-on-error": true
+            }
+        }
+    ],
+    "type": "functional"
+}

@@ -1,0 +1,73 @@
+{
+    "description": "Start Date & End Date",
+    "name": "TestDateFields",
+    "tasks": [
+        {
+            "disabled": false,
+            "name": "Test Login to Tableau",
+            "password": "9h9oMJ05dVvJlifzl/v8;encrypted",
+            "site-id": "{{TABLEAU_SITE}}",
+            "type": "login_tableau",
+            "url": "{{TABLEAU_URL}}",
+            "user": "{{TABLEAU_USER}}"
+        },
+        {
+            "disabled": false,
+            "name": "Test Viz ",
+            "refresh-data": true,
+            "type": "viz_open",
+            "url": "{{TABLEAU_URL}}/t/{{TABLEAU_SITE}}/views/Freshinsights-SpringerNature/FreshInsightsOverview"
+        },
+        {
+            "disabled": false,
+            "name": "Start Date Field",
+            "parameter-type": "datetime",
+            "target": "Start date ",
+            "type": "set_parameter",
+            "value-date-type": "static",
+            "value-datetime": "2020-04-10T05:44:00.000Z",
+            "value-datetime-type": "static",
+            "workflow": {
+                "continue-on-error": true
+            }
+        },
+        {
+            "check-values": false,
+            "disabled": false,
+            "formatted-values": true,
+            "name": "Start Date Field Parameter",
+            "parameter-type": "datetime",
+            "target": "Start date ",
+            "type": "assert_parameter_equals",
+            "workflow": {
+                "continue-on-error": true
+            }
+        },
+        {
+            "disabled": false,
+            "name": "End Date Field",
+            "parameter-type": "datetime",
+            "target": "End date ",
+            "type": "set_parameter",
+            "value-date-type": "static",
+            "value-datetime": "2020-04-30T05:50:00.000Z",
+            "value-datetime-type": "static",
+            "workflow": {
+                "continue-on-error": true
+            }
+        },
+        {
+            "check-values": false,
+            "disabled": false,
+            "formatted-values": true,
+            "name": "End Date Parameter",
+            "parameter-type": "datetime",
+            "target": "End date ",
+            "type": "assert_parameter_equals",
+            "workflow": {
+                "continue-on-error": true
+            }
+        }
+    ],
+    "type": "functional"
+}

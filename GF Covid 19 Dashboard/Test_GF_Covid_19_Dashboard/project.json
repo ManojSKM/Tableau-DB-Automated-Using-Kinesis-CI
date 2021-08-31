@@ -1,0 +1,8 @@
+{
+    "kinesisVersion": "2.2.1",
+    "name": "Test_GF_Covid_19_Dashboard",
+    "description": "GF Covid 19 Dashboard",
+    "srcDir": "src",
+    "jobDir": "test",
+    "contextDir": "context"
+}

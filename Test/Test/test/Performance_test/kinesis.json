@@ -1,0 +1,50 @@
+{
+    "description": "",
+    "name": "Performance_test",
+    "tasks": [
+        {
+            "SLA": {
+                "apdex-goal": 0.85,
+                "availability-goal": 99.5,
+                "excluded-samples": {
+                    "bootstrap-request-event": false,
+                    "clear-session-event": false,
+                    "create-session-event": true,
+                    "get-interactive-components-event": false,
+                    "get-view-event": false,
+                    "interact-randomly-event": false,
+                    "interaction-with-viz-event": false,
+                    "login-event": true,
+                    "opening-viz-on-server-event": false
+                },
+                "response-time-goal": 3000
+            },
+            "advanced": {
+                "compatibility-mode": false,
+                "force-login": true,
+                "think-time-before-interaction": 0,
+                "think-time-between-test": 0,
+                "tolerated-apdex-multiplier": 4
+            },
+            "clients": 1,
+            "disabled": false,
+            "duration": 600,
+            "load-mix": "InteractVizLoadTest",
+            "name": "See the performance",
+            "tableau-server-password": "9h9oMJ05dVvJlifzl/v8;encrypted",
+            "tableau-server-url": "{{TABLEAU_URL}}",
+            "tableau-server-user": "{{TABLEAU_USER}}",
+            "type": "performance_test",
+            "user-pool": [
+                {
+                    "password": "xxFSFO9MCC2q/EOX4beoyHDOlOClvb/X;encrypted",
+                    "username": "Bloganathan"
+                }
+            ],
+            "view-pool": [
+                "/site/{{TABLEAU_SITE}}/views/GFCOVID-19CountryMonitoring_16179831051800/Covid-19CountryMonitoring"
+            ]
+        }
+    ],
+    "type": "performance"
+}

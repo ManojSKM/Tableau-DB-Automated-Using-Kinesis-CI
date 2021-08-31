@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/kinesis.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/mohsen1/json-formatter-js/v1.1.0/dist/bundle.js" type="text/javascript"></script> <!-- json-formatter-js, distributed as bundle.js on github -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/x2js/1.2.0/xml2json.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/i-like-robots/EasyZoom/master/dist/easyzoom.js" type="text/javascript"></script>
+    <!-- Init easyzoom -->
+    <script language="javascript">$(document).ready(function() { $('.easyzoom').easyZoom(); });</script>
+    <meta charset="UTF-8">
+    <base target="_blank">
+    <title></title>
+</head>
+<body>
+<div class="col-md-1"></div>
+<div class="col-md-10">
+    <table class="table table-borderless">
+        <tr>
+            <td class="col-md-3 text-center vert-align">
+                
+                    <h4><span class="label label-success">&#9989; Success</span></h4>
+                
+            </td>
+            <td class="col-md-6 text-center vert-align">
+                <h3>TestDateFields</h3>
+                <h5>Start Date &amp; End Date</h5>
+                <h5>2021-08-31 22:19:34</h5>
+            </td>
+            <td class="col-md-3 text-center vert-align"><img src="images/kinesis-logo.png"/></td>
+        </tr>
+    </table>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Summary</h3>
+<table class="table table-striped">
+    <!--<caption>Summary</caption>-->
+    <thead>
+    <tr>
+        <!--<td>#</td>-->
+        <td>Task Name</td>
+        <td>Status</td>
+        <td>Time</td>
+    </tr>
+    </thead>
+    <!--For each task...-->
+    <!--Each task should contain an anchor link to the task config later down the page-->
+
+    <tbody>
+    
+    <tr>
+        <td><a href="#link-1695438508">Test Login to Tableau</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>37.334s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-82829253">Test Viz </a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>65.734s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-732381588">Start Date Field</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>17.973s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-1920968125">Start Date Field Parameter</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>1.699s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-2012998296">End Date Field</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>14.624s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-1741726767">End Date Parameter</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>2.141s</td>
+    </tr>
+    
+    </tbody>
+</table>
+
+            <h3>Task Details</h3>
+    
+   <a name="link-1695438508"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (1/6)</th>
+                <th>Test Login to Tableau</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1695438508"></td>
+                <script type="text/javascript">
+                    var jsonData = {"disabled":false,"name":"Test Login to Tableau","password":"********","site-id":"analyticsradiaresoftwaresolution","type":"login_tableau","url":"https:\/\/us-east-1.online.tableau.com\/","user":"thirunavukkarasu.k@radiare.com"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1695438508");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Login successful</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210831T221749.043+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-82829253"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (2/6)</th>
+                <th>Test Viz </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-82829253"></td>
+                <script type="text/javascript">
+                    var jsonData = {"disabled":false,"name":"Test Viz ","refresh-data":true,"type":"viz_open","url":"https:\/\/us-east-1.online.tableau.com\/\/t\/analyticsradiaresoftwaresolution\/views\/Freshinsights-SpringerNature\/FreshInsightsOverview"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-82829253");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Data refreshed successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210831T221854.744+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-732381588"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (3/6)</th>
+                <th>Start Date Field</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-732381588"></td>
+                <script type="text/javascript">
+                    var jsonData = {"value-datetime-type":"static","disabled":false,"name":"Start Date Field","parameter-type":"datetime","type":"set_parameter","workflow":{"continue-on-error":true},"target":"Start date ","value-datetime":"2020-04-10T05:44:00.000Z","value-date-type":"static"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-732381588");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Parameter set successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210831T221912.737+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-1920968125"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (4/6)</th>
+                <th>Start Date Field Parameter</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1920968125"></td>
+                <script type="text/javascript">
+                    var jsonData = {"check-values":false,"disabled":false,"formatted-values":true,"name":"Start Date Field Parameter","parameter-type":"datetime","target":"Start date ","type":"assert_parameter_equals","workflow":{"continue-on-error":true}};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1920968125");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Parameter exists as expected. Parameter value check disabled.</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210831T221914.443+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-2012998296"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (5/6)</th>
+                <th>End Date Field</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-2012998296"></td>
+                <script type="text/javascript">
+                    var jsonData = {"value-datetime-type":"static","disabled":false,"name":"End Date Field","parameter-type":"datetime","type":"set_parameter","workflow":{"continue-on-error":true},"target":"End date ","value-datetime":"2020-04-30T05:50:00.000Z","value-date-type":"static"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-2012998296");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Parameter set successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210831T221928.984+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-1741726767"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (6/6)</th>
+                <th>End Date Parameter</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1741726767"></td>
+                <script type="text/javascript">
+                    var jsonData = {"check-values":false,"disabled":false,"formatted-values":true,"name":"End Date Parameter","parameter-type":"datetime","target":"End date ","type":"assert_parameter_equals","workflow":{"continue-on-error":true}};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1741726767");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Parameter exists as expected. Parameter value check disabled.</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210831T221931.234+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+
+        </div>
+    </div>
+</div>
+<div class="col-md-1"></div>
+</body>
+</html>

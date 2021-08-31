@@ -1,0 +1,1561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/kinesis.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/mohsen1/json-formatter-js/v1.1.0/dist/bundle.js" type="text/javascript"></script> <!-- json-formatter-js, distributed as bundle.js on github -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/x2js/1.2.0/xml2json.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/i-like-robots/EasyZoom/master/dist/easyzoom.js" type="text/javascript"></script>
+    <!-- Init easyzoom -->
+    <script language="javascript">$(document).ready(function() { $('.easyzoom').easyZoom(); });</script>
+    <meta charset="UTF-8">
+    <base target="_blank">
+    <title></title>
+</head>
+<body>
+<div class="col-md-1"></div>
+<div class="col-md-10">
+    <table class="table table-borderless">
+        <tr>
+            <td class="col-md-3 text-center vert-align">
+                
+                    
+                        <h4><span class="label label-warning">&#9888; Partial Success</span></h4>
+                    
+                
+            </td>
+            <td class="col-md-6 text-center vert-align">
+                <h3>TestFunctionalFor_FreshInsightsOverview</h3>
+                <h5></h5>
+                <h5>2021-08-24 16:04:54</h5>
+            </td>
+            <td class="col-md-3 text-center vert-align"><img src="images/kinesis-logo.png"/></td>
+        </tr>
+    </table>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Summary</h3>
+<table class="table table-striped">
+    <!--<caption>Summary</caption>-->
+    <thead>
+    <tr>
+        <!--<td>#</td>-->
+        <td>Task Name</td>
+        <td>Status</td>
+        <td>Time</td>
+    </tr>
+    </thead>
+    <!--For each task...-->
+    <!--Each task should contain an anchor link to the task config later down the page-->
+
+    <tbody>
+    
+    <tr>
+        <td><a href="#link-93421425">TestLogintoTableau</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>27.517s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-1027184658">TestOpenViz</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>31.513s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-814345509">TestStartDateField</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>11.824s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-1491875271">AssertParameterEqualsForStartDateField</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>1.568s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-971210455">TestEndDateField</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>9.379s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-766153153">AssertParameterEqualsForEndDateField</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>1.475s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-2031785763">TestParameter</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>5.612s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-121076830">AssertParameterEqualsForTestParameter</a></td>
+        
+            
+                <td>
+                    <p class="text-warning">⚠️</p>
+                </td>
+            
+        
+        <td>1.215s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-127202895">TestCountryFilter</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>3.475s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-982647993">AssertFilterEqualsForCountry</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>3.054s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-1779785230">TestClusterDropdown</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>4.002s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-382458090">AssertFilterEqualsForClusterDropdown</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>2.268s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-1732559006">TestSubClusterDropdown</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>3.201s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-1797691874">AssertFilterEqualsForSubClusterDropdown</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>2.523s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-1931928478">TestAgentsDropDown</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>4.223s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-579283110">AssertFilterEqualsForAgentsDropDown</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>2.289s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-2117312886">TestGroupsDropdown</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>0.963s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-1641881791">AssertFilterEqualsForGroupsDropdown</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>2.440s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-1102068827">TestKPIsDropdown</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>3.469s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-544576011">AssertParameterEqualsForTestKPIsDropdown</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>1.385s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-821237857">TestDateFilter</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>3.164s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-1561317853">AssertParameterEqualsForTestDateFilter</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>1.294s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-402669683">TestStatusDropdownFilter</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>0.948s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-1053021874">AssertFilterEqualsForStatusDropdownFilter</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>1.071s</td>
+    </tr>
+    
+    </tbody>
+</table>
+
+            <h3>Task Details</h3>
+    
+   <a name="link-93421425"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (1/24)</th>
+                <th>TestLogintoTableau</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-93421425"></td>
+                <script type="text/javascript">
+                    var jsonData = {"disabled":false,"name":"TestLogintoTableau","password":"********","site-id":"analyticsradiaresoftwaresolution","type":"login_tableau","url":"https:\/\/us-east-1.online.tableau.com\/","user":"thirunavukkarasu.k@radiare.com"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-93421425");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Login successful</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160308.866+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-1027184658"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (2/24)</th>
+                <th>TestOpenViz</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1027184658"></td>
+                <script type="text/javascript">
+                    var jsonData = {"disabled":false,"name":"TestOpenViz","refresh-data":true,"type":"viz_open","url":"https:\/\/us-east-1.online.tableau.com\/\/t\/analyticsradiaresoftwaresolution\/views\/Freshinsights-SpringerNature\/FreshInsightsOverview"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1027184658");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Data refreshed successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160340.312+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-814345509"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (3/24)</th>
+                <th>TestStartDateField</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-814345509"></td>
+                <script type="text/javascript">
+                    var jsonData = {"value-datetime-type":"static","disabled":false,"name":"TestStartDateField","parameter-type":"datetime","type":"set_parameter","workflow":{"continue-on-error":true},"target":"Start date ","value-datetime":"2020-04-10T18:12:00.000Z","value-date-type":"static"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-814345509");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Parameter set successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160352.136+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-1491875271"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (4/24)</th>
+                <th>AssertParameterEqualsForStartDateField</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1491875271"></td>
+                <script type="text/javascript">
+                    var jsonData = {"expected-value-datetime-formatted":"4\/10\/2020 11:42 PM  2020-4-10 1:10:13 AM","check-values":false,"disabled":false,"name":"AssertParameterEqualsForStartDateField","parameter-type":"datetime","formatted-values":true,"type":"assert_parameter_equals","workflow":{"continue-on-error":true},"target":"Start date "};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1491875271");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Parameter exists as expected. Parameter value check disabled.</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160353.742+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-971210455"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (5/24)</th>
+                <th>TestEndDateField</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-971210455"></td>
+                <script type="text/javascript">
+                    var jsonData = {"value-datetime-type":"static","disabled":false,"name":"TestEndDateField","parameter-type":"datetime","type":"set_parameter","workflow":{"continue-on-error":true},"target":"End date ","value-datetime":"2020-04-30T18:17:00.000Z","value-date-type":"static"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-971210455");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Parameter set successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160403.113+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-766153153"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (6/24)</th>
+                <th>AssertParameterEqualsForEndDateField</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-766153153"></td>
+                <script type="text/javascript">
+                    var jsonData = {"expected-value-datetime-formatted":"4\/30\/2020 6:17:00 PM","check-values":true,"disabled":false,"name":"AssertParameterEqualsForEndDateField","parameter-type":"datetime","formatted-values":true,"type":"assert_parameter_equals","workflow":{"continue-on-error":true},"target":"End date "};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-766153153");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Parameter is as expected.</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160404.604+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-2031785763"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (7/24)</th>
+                <th>TestParameter</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-2031785763"></td>
+                <script type="text/javascript">
+                    var jsonData = {"value-string":"Priority countries","value-datetime-type":"static","disabled":false,"name":"TestParameter","parameter-type":"string","type":"set_parameter","workflow":{"continue-on-error":true},"target":"All\/Priority\/Top 10 countries","value-date-type":"static","value-number":2};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-2031785763");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Parameter set successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160410.164+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-121076830"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (8/24)</th>
+                <th>AssertParameterEqualsForTestParameter</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-121076830"></td>
+                <script type="text/javascript">
+                    var jsonData = {"check-values":true,"disabled":false,"name":"AssertParameterEqualsForTestParameter","parameter-type":"string","expected-value-string-formatted":"Priority countries","formatted-values":true,"type":"assert_parameter_equals","workflow":{"continue-on-error":true},"expected-value-string":"Priority countries","expected-value-number-formatted":"2","target":"All\/Priority\/Top 10 countries"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-121076830");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Parameter [All/Priority/Top 10 countries] found but the type is not the expected. Expected: [string] Actual: [integer]</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160411.447+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-127202895"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (9/24)</th>
+                <th>TestCountryFilter</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-127202895"></td>
+                <script type="text/javascript">
+                    var jsonData = {"disabled":false,"name":"TestCountryFilter","select-all":false,"target":"Country","target-worksheet":"Avg First Responce Time","type":"set_filter_list","values":["China"],"workflow":{"continue-on-error":true}};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-127202895");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>List Filter set successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160414.621+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-982647993"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (10/24)</th>
+                <th>AssertFilterEqualsForCountry</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-982647993"></td>
+                <script type="text/javascript">
+                    var jsonData = {"value-list":["China"],"target-worksheet":"Avg First Responce Time","check-values":true,"disabled":false,"filter-type":"CATEGORICAL","name":"AssertFilterEqualsForCountry","formatted-values":true,"type":"assert_filter_equals","workflow":{"continue-on-error":true},"target":"Country"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-982647993");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Filter is as expected.</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160417.947+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-1779785230"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (11/24)</th>
+                <th>TestClusterDropdown</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1779785230"></td>
+                <script type="text/javascript">
+                    var jsonData = {"disabled":false,"name":"TestClusterDropdown","select-all":false,"target":"Cluster","target-worksheet":"Avg Resolution Time","type":"set_filter_list","values":["Biomedicine"],"workflow":{"continue-on-error":true}};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1779785230");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>List Filter set successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160421.913+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-382458090"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (12/24)</th>
+                <th>AssertFilterEqualsForClusterDropdown</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-382458090"></td>
+                <script type="text/javascript">
+                    var jsonData = {"value-list":["Biomedicine"],"target-worksheet":"Avg Resolution Time","check-values":true,"disabled":false,"filter-type":"CATEGORICAL","name":"AssertFilterEqualsForClusterDropdown","formatted-values":true,"type":"assert_filter_equals","workflow":{"continue-on-error":true},"target":"Cluster"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-382458090");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Filter is as expected.</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160424.235+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-1732559006"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (13/24)</th>
+                <th>TestSubClusterDropdown</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1732559006"></td>
+                <script type="text/javascript">
+                    var jsonData = {"disabled":false,"name":"TestSubClusterDropdown","select-all":false,"target":"Sub cluster","target-worksheet":"Day Ticket Trends","type":"set_filter_list","values":["Microbiology &amp; Genetics"],"workflow":{"continue-on-error":true}};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1732559006");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>List Filter set successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160427.448+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-1797691874"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (14/24)</th>
+                <th>AssertFilterEqualsForSubClusterDropdown</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1797691874"></td>
+                <script type="text/javascript">
+                    var jsonData = {"value-list":["Microbiology &amp; Genetics"],"target-worksheet":"Day Ticket Trends","check-values":true,"disabled":false,"filter-type":"CATEGORICAL","name":"AssertFilterEqualsForSubClusterDropdown","formatted-values":true,"type":"assert_filter_equals","workflow":{"continue-on-error":true},"target":"Sub cluster"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1797691874");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Filter is as expected.</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160429.986+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-1931928478"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (15/24)</th>
+                <th>TestAgentsDropDown</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1931928478"></td>
+                <script type="text/javascript">
+                    var jsonData = {"disabled":false,"name":"TestAgentsDropDown","select-all":false,"target":"Contact Name (Agents)","target-worksheet":"KPIs by country","type":"set_filter_list","values":["Alisha Menezes"],"workflow":{"continue-on-error":true}};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1931928478");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>List Filter set successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160434.151+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-579283110"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (16/24)</th>
+                <th>AssertFilterEqualsForAgentsDropDown</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-579283110"></td>
+                <script type="text/javascript">
+                    var jsonData = {"value-list":["Alisha Menezes"],"target-worksheet":"KPIs by country","check-values":true,"disabled":false,"filter-type":"CATEGORICAL","name":"AssertFilterEqualsForAgentsDropDown","formatted-values":true,"type":"assert_filter_equals","workflow":{"continue-on-error":true},"target":"Contact Name (Agents)"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-579283110");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Filter is as expected.</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160436.494+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-2117312886"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (17/24)</th>
+                <th>TestGroupsDropdown</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-2117312886"></td>
+                <script type="text/javascript">
+                    var jsonData = {"disabled":false,"name":"TestGroupsDropdown","select-all":true,"target":"Name (Groups)","target-worksheet":"Month Ticket Trends","type":"set_filter_list","workflow":{"continue-on-error":true}};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-2117312886");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>List Filter set successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160437.453+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-1641881791"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (18/24)</th>
+                <th>AssertFilterEqualsForGroupsDropdown</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1641881791"></td>
+                <script type="text/javascript">
+                    var jsonData = {"target-worksheet":"Month Ticket Trends","check-values":false,"disabled":false,"filter-type":"CATEGORICAL","name":"AssertFilterEqualsForGroupsDropdown","formatted-values":true,"type":"assert_filter_equals","workflow":{"continue-on-error":true},"target":"Name (Groups)"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1641881791");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Filter exists as expected. Filter value check disabled.</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160439.908+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-1102068827"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (19/24)</th>
+                <th>TestKPIsDropdown</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1102068827"></td>
+                <script type="text/javascript">
+                    var jsonData = {"value-string":"First response time in days","value-datetime-type":"static","disabled":false,"name":"TestKPIsDropdown","parameter-type":"string","type":"set_parameter","workflow":{"continue-on-error":true},"target":"KPIs ","value-date-type":"static"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1102068827");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Parameter set successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160443.336+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-544576011"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (20/24)</th>
+                <th>AssertParameterEqualsForTestKPIsDropdown</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-544576011"></td>
+                <script type="text/javascript">
+                    var jsonData = {"check-values":true,"disabled":false,"name":"AssertParameterEqualsForTestKPIsDropdown","parameter-type":"string","expected-value-string-formatted":"First response time in days","formatted-values":true,"type":"assert_parameter_equals","workflow":{"continue-on-error":true},"target":"KPIs "};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-544576011");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Parameter is as expected.</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160444.730+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-821237857"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (21/24)</th>
+                <th>TestDateFilter</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-821237857"></td>
+                <script type="text/javascript">
+                    var jsonData = {"value-string":"Week","value-datetime-type":"static","disabled":false,"name":"TestDateFilter","parameter-type":"string","type":"set_parameter","workflow":{"continue-on-error":true},"target":"Date filter","value-date-type":"static"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-821237857");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Parameter set successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160447.869+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-1561317853"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (22/24)</th>
+                <th>AssertParameterEqualsForTestDateFilter</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1561317853"></td>
+                <script type="text/javascript">
+                    var jsonData = {"check-values":true,"disabled":false,"name":"AssertParameterEqualsForTestDateFilter","parameter-type":"string","expected-value-string-formatted":"Week","formatted-values":true,"type":"assert_parameter_equals","workflow":{"continue-on-error":true},"target":"Date filter"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1561317853");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Parameter is as expected.</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160449.204+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-402669683"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (23/24)</th>
+                <th>TestStatusDropdownFilter</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-402669683"></td>
+                <script type="text/javascript">
+                    var jsonData = {"disabled":false,"name":"TestStatusDropdownFilter","select-all":false,"target":"Status Name (Status)","target-worksheet":"Day Ticket Trends","type":"set_filter_list","values":["Closed"],"workflow":{"continue-on-error":true}};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-402669683");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>List Filter set successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160450.151+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-1053021874"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (24/24)</th>
+                <th>AssertFilterEqualsForStatusDropdownFilter</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1053021874"></td>
+                <script type="text/javascript">
+                    var jsonData = {"value-list":["Closed"],"target-worksheet":"Day Ticket Trends","check-values":true,"disabled":false,"filter-type":"CATEGORICAL","name":"AssertFilterEqualsForStatusDropdownFilter","formatted-values":true,"type":"assert_filter_equals","workflow":{"continue-on-error":true},"target":"Status Name (Status)"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1053021874");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Filter is as expected.</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210824T160451.183+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+
+        </div>
+    </div>
+</div>
+<div class="col-md-1"></div>
+</body>
+</html>

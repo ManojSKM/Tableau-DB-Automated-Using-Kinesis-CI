@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/kinesis.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/mohsen1/json-formatter-js/v1.1.0/dist/bundle.js" type="text/javascript"></script> <!-- json-formatter-js, distributed as bundle.js on github -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/x2js/1.2.0/xml2json.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/i-like-robots/EasyZoom/master/dist/easyzoom.js" type="text/javascript"></script>
+    <!-- Init easyzoom -->
+    <script language="javascript">$(document).ready(function() { $('.easyzoom').easyZoom(); });</script>
+    <meta charset="UTF-8">
+    <base target="_blank">
+    <title></title>
+</head>
+<body>
+<div class="col-md-1"></div>
+<div class="col-md-10">
+    <table class="table table-borderless">
+        <tr>
+            <td class="col-md-3 text-center vert-align">
+                
+                    <h4><span class="label label-success">&#9989; Success</span></h4>
+                
+            </td>
+            <td class="col-md-6 text-center vert-align">
+                <h3>Country_Filter</h3>
+                <h5>Test Country Filter</h5>
+                <h5>2021-08-31 22:10:53</h5>
+            </td>
+            <td class="col-md-3 text-center vert-align"><img src="images/kinesis-logo.png"/></td>
+        </tr>
+    </table>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Summary</h3>
+<table class="table table-striped">
+    <!--<caption>Summary</caption>-->
+    <thead>
+    <tr>
+        <!--<td>#</td>-->
+        <td>Task Name</td>
+        <td>Status</td>
+        <td>Time</td>
+    </tr>
+    </thead>
+    <!--For each task...-->
+    <!--Each task should contain an anchor link to the task config later down the page-->
+
+    <tbody>
+    
+    <tr>
+        <td><a href="#link-1695438508">Test Login to Tableau</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>70.392s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-1226986248">Test Viz</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>81.164s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-1245165874">Test Country Filter</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>10.998s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-2126786350">Test Country Filter Equals</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>4.078s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-875731727">Test Country Filter Data Rules</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>1.478s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-1391595907">Test Country Filter Data Equals</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>4.416s</td>
+    </tr>
+    
+    </tbody>
+</table>
+
+            <h3>Task Details</h3>
+    
+   <a name="link-1695438508"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (1/6)</th>
+                <th>Test Login to Tableau</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1695438508"></td>
+                <script type="text/javascript">
+                    var jsonData = {"disabled":false,"name":"Test Login to Tableau","password":"********","site-id":"analyticsradiaresoftwaresolution","type":"login_tableau","url":"https:\/\/us-east-1.online.tableau.com\/","user":"thirunavukkarasu.k@radiare.com"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1695438508");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Login successful</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210831T220907.788+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-1226986248"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (2/6)</th>
+                <th>Test Viz</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1226986248"></td>
+                <script type="text/javascript">
+                    var jsonData = {"disabled":false,"name":"Test Viz","refresh-data":true,"type":"viz_open","url":"https:\/\/us-east-1.online.tableau.com\/\/t\/analyticsradiaresoftwaresolution\/views\/Freshinsights-SpringerNature\/FreshInsightsOverview"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1226986248");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Data refreshed successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210831T221029.067+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-1245165874"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (3/6)</th>
+                <th>Test Country Filter</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1245165874"></td>
+                <script type="text/javascript">
+                    var jsonData = {"disabled":false,"name":"Test Country Filter","select-all":false,"target":"Country","target-worksheet":"Avg First Responce Time","type":"set_filter_list","values":["China"],"workflow":{"continue-on-error":true}};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1245165874");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>List Filter set successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210831T221040.065+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-2126786350"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (4/6)</th>
+                <th>Test Country Filter Equals</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-2126786350"></td>
+                <script type="text/javascript">
+                    var jsonData = {"value-list":["China"],"target-worksheet":"Avg First Responce Time","check-values":true,"disabled":false,"filter-type":"CATEGORICAL","name":"Test Country Filter Equals","formatted-values":true,"type":"assert_filter_equals","workflow":{"continue-on-error":true},"target":"Country"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-2126786350");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Filter is as expected.</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210831T221043.971+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-875731727"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (5/6)</th>
+                <th>Test Country Filter Data Rules</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-875731727"></td>
+                <script type="text/javascript">
+                    var jsonData = {"data-type":"SUMMARY","disabled":false,"exclude-nulls":true,"name":"Test Country Filter Data Rules","formatted-values":true,"type":"assert_data_rule_meets","scope":"every-row","row-counts":[{"expression-value":1,"operator":"equals"}],"workflow":{"continue-on-error":true},"tableau-export-csv":{"delimiter":",","encoding":"utf8","newline-char":"\n"},"target":"No of FR SLA Breached tickets"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-875731727");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                
+
+<tr>
+    <td>Result Message</td>
+    <td><samp><p>Data validation passed</p></samp></td>
+</tr>
+
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210831T221045.626+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-1391595907"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (6/6)</th>
+                <th>Test Country Filter Data Equals</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1391595907"></td>
+                <script type="text/javascript">
+                    var jsonData = {"disabled":false,"expected-csv-path":"resources\/No of FR SLA Breached tickets.csv","export-type":"CROSSTAB","name":"Test Country Filter Data Equals","target":"No of FR SLA Breached tickets","type":"assert_data_equals","workflow":{"continue-on-error":true}};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1391595907");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        <a href="artifacts/actual-csv-20210831T221047.052+0530.csv">actual-csv-20210831T221047.052+0530.csv</a>
+                    
+                </td>
+            </tr>
+            
+            
+            
+                
+
+
+<tr>
+    <td>Result Message</td>
+    <td><samp><p>CSV data on worksheet [No of FR SLA Breached tickets] matches</p></samp></td>
+</tr>
+
+
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210831T221049.861+0530.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+
+        </div>
+    </div>
+</div>
+<div class="col-md-1"></div>
+</body>
+</html>
